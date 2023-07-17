@@ -9,6 +9,7 @@ body {
     color: #1d1d1d;
     background: #c4d0dc;
 }
+
 header {
     display: block;
     text-align: center;
@@ -68,3 +69,4 @@ section {
 .main {
     text-align: center;
 }
+
