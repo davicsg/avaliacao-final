@@ -1,0 +1,22 @@
+* {
+    font-family:'Courier New', Courier, monospace ;
+    color: #000000;
+    font: bold;
+}
+
+body {
+    margin: 0;
+    color: #1d1d1d;
+    background: #c4d0dc;
+}
+header {
+    display: block;
+    text-align: center;
+    background:url(assets/images/paper-1074131_1920.jpg);
+    color: #000000;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+}
