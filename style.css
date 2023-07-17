@@ -1,0 +1,70 @@
+* {
+    font-family:'Courier New', Courier, monospace ;
+    color: #000000;
+    font: bold;
+}
+
+body {
+    margin: 0;
+    color: #1d1d1d;
+    background: #c4d0dc;
+}
+header {
+    display: block;
+    text-align: center;
+    background:url(assets/images/paper-1074131_1920.jpg);
+    color: #000000;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+}
+
+section { 
+    padding: 40px 0;
+}
+
+.image {
+    height: 380px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(assets/images/code-5290465_1920.jpg);
+}
+
+.text {
+    display: flex;
+    background: url(assets/images/paper-1074131_1920.jpg);
+    position: relative;
+    color: #fff;
+}
+
+.text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 125%;
+    background: url(assets/images/paper-1074131_1920.jpg);
+    rotate: -3deg;
+    translate: -50% -50%;
+    color: #fff;
+}
+
+.main p, h1, h2, h3, h4, legend, img, button, ul, li {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+    text-align: center;
+}
+
+.main img {
+    width: 300px;
+}
+
+.main {
+    text-align: center;
+}
